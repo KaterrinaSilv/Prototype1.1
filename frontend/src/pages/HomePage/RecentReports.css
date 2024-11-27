@@ -1,0 +1,33 @@
+.recent-reports ul {
+  list-style: none;
+  padding: 0;
+}
+
+.report-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.report-info {
+  flex: 1;
+}
+
+.details-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

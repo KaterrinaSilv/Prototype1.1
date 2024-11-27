@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web App</title>
-</head>
-<body>
-    <h1>Welcome to My Web App</h1>
-    <button id="fetchData">Get Data</button>
-    <div id="response"></div>
-
-    <script>
-        document.getElementById('fetchData').addEventListener('click', async () => {
-            const response = await fetch('http://127.0.0.1:5000/');
-            const data = await response.json();
-            document.getElementById('response').textContent = data.message;
-        });
-    </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My React App</title>
+  </head>
+  <body>
+    <div id="root"></div> <!-- Это место, куда будет вставляться ваше React-приложение -->
+  </body>
 </html>
