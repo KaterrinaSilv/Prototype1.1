@@ -1,30 +1,38 @@
+/* Базовые стили для шторки */
 .sidebar {
-  width: 60px;
-  background-color: #333;
-  color: white;
-  height: 100vh;
+  width: 140px; /* Фиксированная ширина */
+  background-color: #333; /* Цвет шторки */
+  color: white; /* Цвет текста */
+  height: 100vh; /* Полная высота окна браузера */
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0; /* Убедитесь, что padding отсутствует */
+  margin: 0; /* Убираем любые возможные внешние отступы */
 }
 
+/* Шторка в развернутом виде */
 .sidebar.expanded {
-  width: 200px;
+  width: 200px;  /* Ширина шторки в развернутом виде */
 }
 
+/* Стили для кнопок */
 .sidebar nav a {
-  text-decoration: none;
-  color: white;
+  text-decoration: none;  /* Убираем подчеркивание у ссылок */
+  color: white;  /* Белый цвет текста */
   padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 100%;  /* Кнопки занимают всю ширину шторки */
+  margin: 5px 0;  /* Отступы между кнопками */
+  display: block;  /* Убедимся, что кнопки на одной строке */
 }
 
+/* Стили для кнопки разворачивания шторки */
 .expand-btn {
   background: none;
   border: none;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
   margin: 10px 0;
   cursor: pointer;
 }

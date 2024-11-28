@@ -1,9 +1,9 @@
 // src/pages/HomePage/HomePage.js
 import React from "react";
-import Sidebar from "./Sidebar";   // Убедитесь, что Sidebar существует и правильно импортирован
-import HeaderSection from "./HeaderSection";  // Убедитесь, что HeaderSection существует и правильно импортирован
-import RecentReports from "./RecentReports";  // Убедитесь, что RecentReports существует и правильно импортирован
-import "../../App.css";  // Убедитесь, что App.css существует
+import Sidebar from "./Sidebar";   
+import HeaderSection from "./HeaderSection";  
+import RecentReports from "./RecentReports";  
+import "./HomePage.css";  
  
 function HomePage() {
   console.log("Rendering HomePage");
@@ -11,7 +11,8 @@ function HomePage() {
 
     <div className="app">
       <Sidebar />
-      <div className="main-content">
+        <div className="main-content">
+        <div className="decorative-banner"></div> {/* Прямоугольник */}
         <HeaderSection />
         <RecentReports />
       </div>

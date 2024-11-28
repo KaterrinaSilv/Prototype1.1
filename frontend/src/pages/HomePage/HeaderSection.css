@@ -1,20 +1,42 @@
 .header-section {
-  text-align: center;
-  margin: 20px;
+  display: flex; /* Располагаем элементы по горизонтали */
+  align-items: center; /* Выравнивание элементов по вертикали по центру */
+  justify-content: flex-start; /* Выравнивание элементов по левому краю */
+  margin: 20px; /* Отступы */
 }
 
 .logo img {
-  width: 50px;
-  height: 50px;
+  width: 250px;
+  height: 250px;
+  margin-right: 20px; /* Отступ между логотипом и текстом */
+}
+
+.text-container {
+  display: flex; /* Вертикальное расположение текста в контейнере */
+  flex-direction: column; /* Элементы текста будут расположены по вертикали */
+  align-items: flex-start; /* Выравнивание текста по левому краю */
+  justify-content: flex-start; /* Выравнивание по верхнему краю */
+}
+
+.text-container h1 {
+  margin: 0; /* Убираем отступы у заголовка */
+  font-size: 54px; /* Увеличиваем размер шрифта заголовка */
+}
+
+.text-container p {
+  margin: 5px 0; /* Отступы между текстовыми элементами */
+  font-size: 24px; /* Размер шрифта для подзаголовка */
 }
 
 .new-case-btn {
   padding: 10px 20px;
+  font-size: 18px;
   background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px; /* Отступ сверху от текста */
 }
 
 .new-case-btn:hover {
