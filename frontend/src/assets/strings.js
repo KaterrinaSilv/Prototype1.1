@@ -10,6 +10,16 @@ export const strings = {
     logout: "Выход",
   },
 
+   // Пути к изображениям для иконок
+  iconPaths: {
+    profile: "/images/user.png",
+    newCase: "/images/plus.png",
+    homePage: "/images/home.png",
+    allCases: "/images/bookmark.png",
+    search: "/images/search.png",
+    logout: "/images/exit.png",
+  },
+
   // Общие тексты
   appName: "BankroCheck",
   homePageSubtitle: "Загрузите необходимые документы для быстрого и эффективного анализа",
