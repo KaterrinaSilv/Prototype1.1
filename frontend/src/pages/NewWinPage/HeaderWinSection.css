@@ -1,0 +1,81 @@
+.header-section {
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start; 
+  padding-top: 0px; 
+  margin: 0px;
+  margin-left: 30px;
+}
+
+.rectangle {
+  width: 230px;
+  height: 230px;
+  background-color: #D5D4EA;
+  margin-right: 20px; 
+  border-radius: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle span {
+  font-size: 100px; /* Размер иконки */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение элементов */
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.editable-header {
+  font-size: 54px; 
+  font-weight: bold; 
+  border: none; 
+  outline: none; 
+  background: none; 
+  text-align: left; 
+  direction: ltr; 
+  margin: 0;
+  padding: 0; 
+  width: auto; 
+}
+
+.header-section-btn {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; /* Выравнивание по левому краю */
+}
+
+.new-case-btn {
+  width: 300px;       /* Задаем фиксированную ширину (если нужно) */
+  height: 50px;  
+  margin-right: 20px;
+  font-size: 18px;
+  background-color: #332D41;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.new-case-btn:hover {
+  background-color: #7B6BA7;
+}
+
+.save-case-btn {
+  width: 300px;       
+  height: 50px;  
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #89878a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.save-case-btn:hover {
+  background-color: #bab8ba;
+}
+

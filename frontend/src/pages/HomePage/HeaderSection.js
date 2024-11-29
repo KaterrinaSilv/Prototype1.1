@@ -11,7 +11,8 @@ function HeaderSection() {
       <div className="text-container">
         <h1>{strings.appName}</h1> {/* Здесь ваш заголовок */}
         <p>{strings.homePageSubtitle}</p> {/* Ваш подзаголовок */}
-        <button className="new-case-btn">{strings.newCaseButton}</button>
+        <button className="new-case-btn" 
+        onClick={() => (window.location.href = `/new_win`)}>{strings.newCaseButton}</button>
       </div>
     </div>
   );

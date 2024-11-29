@@ -1,0 +1,102 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.files h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.file-list {
+  margin-bottom: 20px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.file-item span {
+  font-size: 16px;
+}
+
+.delete-btn {
+  background-color: #332D41;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.upload-btn {
+  background-color: #332D41;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.upload-btn:hover {
+  background-color: #7B6BA7;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.info-icon {
+  font-size: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.info-text {
+  flex: 1;
+}
+
+.info-text h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-text p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.training-btn {
+  background-color: #89878a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.training-btn:hover {
+  background-color: #bab8ba;
+}
+ 

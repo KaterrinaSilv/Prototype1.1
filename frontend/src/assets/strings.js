@@ -7,7 +7,7 @@ export const strings = {
     homePage: "Домашняя страница",
     allCases: "Все дела",
     search: "Поиск",
-    logout: "Выход",
+    logout: "Выход"
   },
 
    // Пути к изображениям для иконок
@@ -24,6 +24,10 @@ export const strings = {
   appName: "BankroCheck",
   homePageSubtitle: "Загрузите необходимые документы для быстрого и эффективного анализа",
   newCaseButton: "Новое дело",
+  newWinPageSubtitle: "Загрузите документ или архив",
+  saveADraft: "Сохранить черновик",
+  uploadDocuments: "Загрузить документы",
+  download: "Загрузить",
 
   // Тестовые данные
   testUsers: [
