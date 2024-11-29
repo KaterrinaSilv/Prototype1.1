@@ -28,7 +28,7 @@ function HeaderWinSection() {
         <div className="header-section">
         <button
           className="new-case-btn"
-          onClick={() => (window.location.href = `/new_win`)}
+          onClick={() => (window.location.href = `/load`)}
         >
           {strings.uploadDocuments}
         </button>

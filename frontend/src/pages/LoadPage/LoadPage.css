@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center; /* Центрируем контейнер по горизонтали */
+  background-color: #f0f0f0; /* Цвет фона для всего приложения */
+}
+
+.main-content-load {
+  flex: 1;  
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0; 
+  margin: 0;  
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-container {
+  margin: 30px;
+  max-width: 100%; 
+  max-height: 100%;
+  background-color: #e0e0e0; 
+  padding-left: 40px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+}
+
+.loading-box h1 {
+  margin: 0; /* Убираем отступы у заголовка */
+  font-size: 48px; /* Увеличиваем размер шрифта заголовка */
+  font-weight: bold; 
+  color: #332D41;
+}
+
+.loading-box p {
+  font-size: 20px; /* Увеличиваем размер подзаголовка */
+  margin-bottom: 30px;
+  color: #4A4458; /* Цвет подзаголовка */
+}
+
+.progress-bar-container {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px; /* Увеличиваем высоту полоски загрузки */
+  margin-bottom: 30px; /* Отступ снизу */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #7B6BA7;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around; /* Располагаем кнопки с равными отступами */
+  margin-top: 20px; /* Отступ сверху для кнопок */
+}
+
+button {
+  padding: 12px 30px; /* Увеличиваем padding кнопок */
+  font-size: 18px; /* Увеличиваем размер шрифта кнопок */
+  border: none;
+  border-radius: 8px; /* Закругленные углы у кнопок */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Плавный переход фона кнопок */
+}
+
+.cancel-btn {
+  background-color: #89878a;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #bab8ba;
+}
+
+.pause-btn {
+  background-color: #332d41;
+  color: white;
+}
+
+.pause-btn:hover {
+  background-color: #7b6ba7;
+}
+
+
+.continue-btn-container {
+  margin-top: 20px;
+}
+
+.continue-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-color: #45a049;
+}
