@@ -1,6 +1,8 @@
-.recent-reports ul {
+.recent-reports h2 {
   list-style: none;
   padding: 0;
+  margin: 30px;
+
 }
 
 .report-item {
@@ -11,18 +13,23 @@
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
-  background-color: #eee;
-  border-radius: 50%;
+  width: 120px;      
+  height: 120px;    
+  background-color: #D5D4EA;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+  border-radius: 8px; 
+}
+
+.profile-icon {
+  font-size: 60px;   
 }
 
 .report-info {
   flex: 1;
+
 }
 
 .details-btn {

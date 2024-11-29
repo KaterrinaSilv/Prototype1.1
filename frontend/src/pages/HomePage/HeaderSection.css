@@ -2,14 +2,18 @@
   display: flex; /* Располагаем элементы по горизонтали */
   align-items: center; /* Выравнивание элементов по вертикали по центру */
   justify-content: flex-start; /* Выравнивание элементов по левому краю */
-  margin: 20px; /* Отступы */
+  padding-top: 30px; /* Отступы */
+  margin: 30px; /* Отступы */
 }
 
-.logo img {
-  width: 250px;
-  height: 250px;
-  margin-right: 20px; /* Отступ между логотипом и текстом */
+.rectangle {
+  width: 230px;
+  height: 230px;
+  background-color: #D5D4EA; /* Цвет прямоугольника */
+  margin-right: 20px; /* Отступ между прямоугольником и текстом */
+  border-radius: 20px; /* Закругленные углы */
 }
+
 
 .text-container {
   display: flex; /* Вертикальное расположение текста в контейнере */
@@ -21,24 +25,36 @@
 .text-container h1 {
   margin: 0; /* Убираем отступы у заголовка */
   font-size: 54px; /* Увеличиваем размер шрифта заголовка */
+  font-weight: bold; 
 }
 
 .text-container p {
   margin: 5px 0; /* Отступы между текстовыми элементами */
   font-size: 24px; /* Размер шрифта для подзаголовка */
+
+  padding-bottom: 80px;
 }
 
 .new-case-btn {
+  width: 200px;       /* Задаем фиксированную ширину (если нужно) */
+  height: 50px;  
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #4caf50;
+  background-color: #332D41;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  margin-top: 10px; /* Отступ сверху от текста */
 }
 
 .new-case-btn:hover {
-  background-color: #45a049;
+  background-color: #7B6BA7;
 }
+.expand-btn {
+  background: none;
+  border: none;
+  font-size: 24px; /* Размер иконки */
+  margin: 10px 0;
+  cursor: pointer;
+}
+

@@ -1,16 +1,17 @@
 import React from "react";
 import "./HeaderSection.css";
+import { strings } from "../../assets/strings"; // Импорт строковых ресурсов
 
 function HeaderSection() {
   return (
     <div className="header-section">
-      <div className="logo">
-        <img src="path/to/logo.png" alt="Logo" /> {/* Укажите путь к вашему лого */}
-      </div>
+        <div class="logo">
+    <div class="rectangle"></div>
+  </div>
       <div className="text-container">
-        <h1>Заголовок</h1> {/* Здесь ваш заголовок */}
-        <p>Подзаголовок, который объясняет что-то важное.</p> {/* Ваш подзаголовок */}
-        <button className="new-case-btn">Новое дело</button>
+        <h1>{strings.appName}</h1> {/* Здесь ваш заголовок */}
+        <p>{strings.homePageSubtitle}</p> {/* Ваш подзаголовок */}
+        <button className="new-case-btn">{strings.newCaseButton}</button>
       </div>
     </div>
   );

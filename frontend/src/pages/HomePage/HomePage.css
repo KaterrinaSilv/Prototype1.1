@@ -1,5 +1,6 @@
 /* styles for HomePage layout */
 
+
 /* Убираем глобальные отступы и поля */
 html, body {
   margin: 0;
@@ -12,9 +13,9 @@ html, body {
 .decorative-banner {
   width: 100%; /* Прямоугольник на всю ширину */
   height: 90px; /* Высота 100px */
-  background-color: #4caf50; /* Цвет на ваше усмотрение */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Лёгкая тень для объёма */
-  margin-bottom: 20px; /* Отступ снизу, чтобы отделить от остального контента */
+  background-color: #D5D4EA; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 20px; 
 }
 
 .app {
@@ -23,10 +24,10 @@ html, body {
 }
 
 .main-content {
-  flex: 1;  /* Основной контент занимает оставшееся пространство */
+  flex: 1;  
   flex-direction: column;
   flex-grow: 1;
-  padding: 0; /* Если есть padding, убедитесь, что он не мешает */
+  padding: 0; 
   margin: 0;  
 }
 
