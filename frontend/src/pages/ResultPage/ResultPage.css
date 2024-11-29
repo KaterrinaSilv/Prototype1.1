@@ -1,0 +1,40 @@
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выравниваем содержимое по левому краю */
+  padding: 30px;
+  margin-top: 0px;
+}
+
+.chart-text-container {
+  display: flex;
+  align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+  justify-content: flex-start; /* Выравниваем содержимое по левому краю */
+  gap: 20px;
+}
+
+.results-container h1 {
+  margin-top: 0px;
+  font-size: 48px; 
+}
+
+.chart-container {
+  width: 300px;
+  height: 300px;
+}
+
+.download-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #332D41;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.download-btn:hover {
+  background-color: #7B6BA7;
+}

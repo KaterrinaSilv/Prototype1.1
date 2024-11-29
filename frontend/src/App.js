@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";  // Убираем BrowserRout
 import HomePage from "./pages/HomePage/HomePage";  // Импортируем HomePage
 import NewWinPage from "./pages/NewWinPage/NewWinPage.js";  
 import LoadPage from "./pages/LoadPage/LoadPage.js";  
+import ResultPage from "./pages/ResultPage/ResultPage.js";  
 function App() {
   return (
     <Routes>
@@ -11,7 +12,7 @@ function App() {
       <Route path="/home_page" element={<HomePage />} />  
       <Route path="/new_win" element={<NewWinPage />} /> 
       <Route path="/load" element={<LoadPage />} /> 
-      <Route path="result_page" element={<HomePage />} /> 
+      <Route path="result_page" element={<ResultPage />} /> 
   
     </Routes>
   );
